@@ -1,0 +1,15 @@
+{
+   "xmpp": { 
+        "botNick":    "nick",
+        "resource":   "bot",
+        "jid" :       "name@jabber.org",
+        "password":   "pass",
+        "host":       "jabber.org",
+        "port":       "5222",
+        "conference": "conf@conference.jabber.org",
+        "admJid":     "adm@jabber.org"
+    },
+    "websocket" : {
+        "host": "http://hostname.com"
+    }
+}

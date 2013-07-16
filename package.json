@@ -1,0 +1,20 @@
+{
+  "name": "Woofeque",
+  "version": "0.0.9",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.1",
+    "jade": "*",
+    "less": "*",
+    "less-middleware" : "*",
+    "socket.io": "*",
+    "simple-xmpp": "*"
+  },
+    "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}

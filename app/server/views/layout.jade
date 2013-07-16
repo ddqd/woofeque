@@ -1,0 +1,11 @@
+!!! 5
+html
+    head
+        block scripts
+            script(src='js/woofeque.js')
+            script(src='/socket.io/socket.io.js')
+        title #{title}
+        link(rel='stylesheet', href='/css/style.css')
+        link(rel='stylesheet', href='/css/zimit/zimit.min.css')
+    body
+        block content
